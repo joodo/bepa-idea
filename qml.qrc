@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Node.qml</file>
+        <file>StyleSelector.qml</file>
+        <file>ReadonlyNode.qml</file>
+        <file>ScaleIndicator.qml</file>
+        <file>MainWindow.qml</file>
+        <file>Idea.qml</file>
+        <file>OpenMenu.qml</file>
+        <file>MindMapCanvas.qml</file>
+        <file>CanvasSelectMouseArea.qml</file>
+        <file>CanvasMultiSelectMouseArea.qml</file>
+        <file>CanvasMoveMouseArea.qml</file>
+        <file>MultiSelectionRect.qml</file>
+        <file>FileSelector.qml</file>
+        <file>IdeaMenu.qml</file>
+        <file>Toast.qml</file>
+        <file>FadeoutRect.qml</file>
+    </qresource>
+</RCC>
