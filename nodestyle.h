@@ -15,6 +15,7 @@ class NodeStyle : public JsonableObject
     Q_PROPERTY(qreal radius READ radius WRITE setRadius NOTIFY radiusChanged)
     Q_PROPERTY(int fontSize READ fontSize WRITE setFontSize NOTIFY fontSizeChanged)
     Q_PROPERTY(bool underline READ underline WRITE setUnderline NOTIFY underlineChanged)
+    Q_PROPERTY(QString name READ name WRITE setName NOTIFY nameChanged)
     QColor m_backgroundColor;
 
     qreal m_borderWidth;
@@ -26,6 +27,8 @@ class NodeStyle : public JsonableObject
     int m_fontSize;
 
     bool m_underline;
+
+    QString m_name;
 
 public:
     explicit NodeStyle(QObject *parent = 0);
@@ -60,6 +63,11 @@ public:
         return m_underline;
     }
 
+    QString name() const
+    {
+        return m_name;
+    }
+
 signals:
 
     void backgroundColorChanged(QColor backgroundColor);
@@ -73,6 +81,8 @@ signals:
     void fontSizeChanged(int fontSize);
 
     void underlineChanged(bool underline);
+
+    void nameChanged(QString name);
 
 public slots:
     void setBackgroundColor(QColor backgroundColor)
@@ -122,6 +132,14 @@ public slots:
 
         m_underline = underline;
         emit underlineChanged(underline);
+    }
+    void setName(QString name)
+    {
+        if (m_name == name)
+            return;
+
+        m_name = name;
+        emit nameChanged(name);
     }
 };
 

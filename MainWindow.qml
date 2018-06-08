@@ -11,6 +11,7 @@ Window {
 
     property list<NodeStyle> defaultStyleSchemes: [
         NodeStyle {
+            name: qsTr("Default")
             backgroundColor: "lightblue"
             borderWidth: 3
             borderColor: "gray"
@@ -19,6 +20,7 @@ Window {
             underline: false
         },
         NodeStyle {
+            name: qsTr("Title")
             backgroundColor: "transparent"
             borderWidth: 3
             borderColor: "gray"
@@ -27,6 +29,7 @@ Window {
             underline: true
         },
         NodeStyle {
+            name: qsTr("Done")
             backgroundColor: "lightgreen"
             borderWidth: 3
             borderColor: "gray"
@@ -35,6 +38,7 @@ Window {
             underline: false
         },
         NodeStyle {
+            name: qsTr("Problem")
             backgroundColor: "#FF7777"
             borderWidth: 3
             borderColor: "gray"

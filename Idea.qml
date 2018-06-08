@@ -24,6 +24,7 @@ Item {
     StyleSelector {
         id: styleSelector
         visible: false
+        anchors.verticalCenter: parent.verticalCenter;anchors.right: parent.right
         z: 200
     }
 
@@ -61,7 +62,7 @@ Item {
                 }
             }
             styleSelector.selectedStyleIndex = si;
-
+/*
             var rightmostNode = canvas.selectedNodes[0];
             var topmostNode = canvas.selectedNodes[0];
             for (var i in canvas.selectedNodes) {
@@ -87,7 +88,7 @@ Item {
             }
             if (styleSelector.y < 50) {
                 styleSelector.y = 50;
-            }
+            }*/
         } else {
             styleSelector.visible = false;
         }

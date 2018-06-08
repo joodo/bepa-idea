@@ -20,6 +20,7 @@ MouseArea {
                 var node = idea.canvas.createNode();
                 node.x = pos.x - node.width/2; node.y = pos.y - node.height/2;
                 node.state = "edit";
+                node.text = qsTr("New Node");
                 idea.canvas.newSelection(node);
             } else {
                 idea.canvas.newSelection(target);

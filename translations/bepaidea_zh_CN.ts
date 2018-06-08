@@ -9,6 +9,14 @@
     </message>
 </context>
 <context>
+    <name>CanvasSelectMouseArea</name>
+    <message>
+        <location filename="../CanvasSelectMouseArea.qml" line="23"/>
+        <source>New Node</source>
+        <translation>新节点</translation>
+    </message>
+</context>
+<context>
     <name>FileSelector</name>
     <message>
         <location filename="../FileSelector.qml" line="9"/>
@@ -28,7 +36,7 @@
         <translation>双击来建立新节点</translation>
     </message>
     <message>
-        <location filename="../Idea.qml" line="124"/>
+        <location filename="../Idea.qml" line="125"/>
         <source>Select All</source>
         <translation>全选</translation>
     </message>
@@ -99,18 +107,38 @@
     <name>MainWindow</name>
     <message>
         <location filename="../MainWindow.qml" line="9"/>
-        <location filename="../MainWindow.qml" line="49"/>
-        <location filename="../MainWindow.qml" line="51"/>
+        <location filename="../MainWindow.qml" line="53"/>
+        <location filename="../MainWindow.qml" line="55"/>
         <source>BepaIdea</source>
         <translation>白派想法</translation>
     </message>
     <message>
-        <location filename="../MainWindow.qml" line="91"/>
+        <location filename="../MainWindow.qml" line="14"/>
+        <source>Default</source>
+        <translation>默认</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.qml" line="23"/>
+        <source>Title</source>
+        <translation>标题</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.qml" line="32"/>
+        <source>Done</source>
+        <translation>完成</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.qml" line="41"/>
+        <source>Problem</source>
+        <translation>问题</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.qml" line="95"/>
         <source>Discard Modifications</source>
         <translation>放弃修改</translation>
     </message>
     <message>
-        <location filename="../MainWindow.qml" line="109"/>
+        <location filename="../MainWindow.qml" line="113"/>
         <source>Fail to open idea. Maybe idea &quot;%1&quot; is already moved, deleted or broken.</source>
         <translation>打开想法失败。可能想法“%1”已经被移动、删除或损坏。</translation>
     </message>
@@ -148,9 +176,8 @@
 <context>
     <name>ReadonlyNode</name>
     <message>
-        <location filename="../ReadonlyNode.qml" line="8"/>
         <source>New Node</source>
-        <translation>新节点</translation>
+        <translation type="vanished">新节点</translation>
     </message>
 </context>
 <context>
@@ -164,9 +191,8 @@
 <context>
     <name>StyleSelector</name>
     <message>
-        <location filename="../StyleSelector.qml" line="26"/>
         <source>Style </source>
-        <translation>风格 </translation>
+        <translation type="vanished">风格 </translation>
     </message>
 </context>
 </TS>

@@ -120,7 +120,7 @@ ReadonlyNode {
 
     function adaptSize() {
         if (text === "") {
-            text = defaultText;
+            //text = defaultText;
         }
 
         displayItem.wrapMode = Text.NoWrap;

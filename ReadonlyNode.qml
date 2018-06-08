@@ -5,7 +5,6 @@ Rectangle {
 
     property int styleIndex: 0
     property alias text: displayItem.text
-    readonly property string defaultText: qsTr("New Node")
 
     property alias displayItem: displayItem // for Node
 
@@ -17,7 +16,7 @@ Rectangle {
 
     Text {
         id:displayItem
-        text: readonlyNode.defaultText
+        text: idea.styleSchemes[styleIndex].name
         anchors.fill: parent
         anchors.topMargin: 10; anchors.bottomMargin: 10; anchors.leftMargin: 20; anchors.rightMargin: 20
         verticalAlignment: TextInput.AlignVCenter; horizontalAlignment: TextInput.AlignHCenter
